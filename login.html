@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Job Agent</title>
+    <style>
+        body{
+            font-family: Arial;
+            background:#f4f4f4;
+            text-align:center;
+            padding-top:50px;
+        }
+
+        .container{
+            width:350px;
+            margin:auto;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px gray;
+        }
+
+        input{
+            width:90%;
+            padding:10px;
+            margin:10px;
+        }
+
+        button{
+            padding:10px 20px;
+            background:blue;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+
+        h2{
+            margin-bottom:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>AI Job Agent Login</h2>
+
+<form action="/login" method="POST">
+<input type="email" name="email" placeholder="Enter Email" required>
+<br>
+<input type="password" name="password" placeholder="Enter Password" required>
+<br>
+<button type="submit">Login</button>
+</form>
+
+<hr>
+
+<h2>Create Account</h2>
+
+<form action="/register" method="POST">
+<input type="email" name="email" placeholder="Enter Email" required>
+<br>
+<input type="password" name="password" placeholder="Enter Password" required>
+<br>
+<button type="submit">Register</button>
+</form>
+
+</div>
+
+</body>
+</html>
